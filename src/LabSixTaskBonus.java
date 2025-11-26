@@ -1,3 +1,12 @@
+/* Bonus Question:
+Write a program that creates a 2D integer array scores (5 students, 4 quizzes), fills it with
+random values in the range 0–100, and prints the table as a neat grid (each row on its own
+line). After printing, compute and print each student’s average (row averages) and each quiz’s
+average (column averages), formatted to two decimals. Finally, find the highest score in the
+table and print its value and its location as (studentIndex, quizIndex); if more than
+one cell shares the highest value, report the one with the smallest studentIndex, and if
+still tied, the smallest quizIndex. */
+
 import java.util.Random;
 
 public class LabSixTaskBonus {

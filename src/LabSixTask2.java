@@ -1,3 +1,11 @@
+/*Scenario 2:
+        Write a program that contains a function that rotates an integer array to the right by one
+        position in a circular way (the last element becomes the first). The function should take the
+        array as a parameter and return the rotated array. In the main method, generate a random
+        integer array of size between 10 and 20, fill it with random values between 0 and 99, print the
+        original array, call the function, and then print the resulting rotated array
+*/
+
 import java.util.Random;
 
 public  class LabSixTask2 {

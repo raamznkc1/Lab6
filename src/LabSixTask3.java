@@ -1,3 +1,13 @@
+
+/* Scenario 3:
+Using the Random class, write a program that simulates 1,000,000 independent days of
+weather. Each day should be one of four types with these target probabilities: Sunny 40%,
+Cloudy 30%, Rainy 20%, Stormy 10%. Create an array that represents these probabilities by
+including each category in the correct proportions, then for each simulated day pick a random
+position in that array to determine the day’s weather and update a running total for each
+category. When the simulation finishes, print how many times each weather type occurred
+and its percentage (to two decimals) so you can compare to 40%, 30%, 20%, and 10%. */
+
 import java.util.Random;
 
 public  class LabSixTask3 {

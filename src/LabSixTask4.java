@@ -1,3 +1,13 @@
+
+/* Scenario 4:
+Write a program that creates an integer array of size 30 whose elements are random integers
+between 1 and 100. Consider the following definition:
+● An index i is a “peak” if arr[i] is strictly greater than its immediate neighbors
+arr[i−1] and arr[i+1]; the first and last elements are not considered peaks.
+Generate the array and count how many peaks there are. Print their values, the total number
+of peaks and the value of the tallest peak. */
+
+
 import java.util.Random;
 
 public  class LabSixTask4 {
